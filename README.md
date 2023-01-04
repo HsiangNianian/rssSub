@@ -4,14 +4,14 @@
 [![](https://img.shields.io/github/issues/A2C29K9/rssSub)](https://github.com/A2C29K9/rssSub/issues) [![](https://img.shields.io/github/issues-pr/A2C29K9/rssSub)](https://github.com/A2C29K9/rssSub/pulls)[![GitHub last commit](https://img.shields.io/github/last-commit/A2C29K9/rssSub.svg)](https://github.com/A2C29K9/rssSub/commits) [![release](https://img.shields.io/github/v/release/A2C29K9/rssSub.svg)](https://github.com/A2C29K9/rssSub/releases)
 ```json
 {
-    "mod":"thesaurus",
+    "mod":"rssSub",
     "author":"简律纯",
-    "ver":"2.0.4",
+    "ver":"alpha-0.1",
     "dice_build":612,
-    "brief":"词典匹配回复",
+    "brief":"rss订阅推送",
     "comment":"",
     "helpdoc":{
-        "thesaurus":"https://github.com/A2C29K9/thesaurus"
+        "rssSub":"https://github.com/A2C29K9/rssSub"
     }
 }
 ```
