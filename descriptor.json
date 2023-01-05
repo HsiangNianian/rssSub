@@ -5,6 +5,7 @@
     "dice_build":612,
     "brief":"rss订阅推送",
     "comment":"",
+    "repo":"https://ghproxy.com/https://github.com/A2C29K9/rssSub.git",
     "helpdoc":{
         "rssSub":"https://github.com/A2C29K9/rssSub"
     }
