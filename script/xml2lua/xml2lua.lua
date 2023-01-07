@@ -49,8 +49,15 @@
 --
 --@author Paul Chakravarti (paulc@passtheaardvark.com)
 --@author Manoel Campos da Silva Filho
+local DIR_SEP = package.config:sub(1,1)
+package.path = getDiceDir()..
+    DIR_SEP..'mod'..
+        DIR_SEP..'rssSub'..
+            DIR_SEP..'script'..
+                DIR_SEP..'?.lua;'..
+                    package.path
 local xml2lua = {_VERSION = "1.5-2"}
-local XmlParser = require("XmlParser")
+local XmlParser = require("xml2lua.XmlParser")
 
 ---Recursivelly prints a table in an easy-to-ready format
 --@param tb The table to be printed

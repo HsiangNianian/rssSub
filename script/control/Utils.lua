@@ -1,11 +1,70 @@
-local _M = {}
-
-_M.prequire = function(...)
+local modname = "Util"
+local M = {}
+_G[modname] = M
+package.loaded[modname] = M
+local DIR_SEP = package.config:sub(1,1)
+M.prequire = function(...)
     local ok, mod=pcall(require, ...)
     if not ok then return nil, mod end
     return mod
 end
+local function value2string(value, isArray)
+    if type(value)=='table' then
+       return M.table2string(value, isArray)
+    elseif type(value)=='string' then
+        return "\""..value.."\""
+    else
+       return tostring(value)
+    end
+end
+function M.string2table(str)
+    if str == nil or type(str) ~= "string" or str == "" then
+        return {}
+    end
+	return load("return " .. str)()
+end
+M.write = function(path, text, mode)
+    file = io.open(path, mode) --"a"
+    if file then
+        io.output(file)
+        io.write(text)
+        io.close()
+        return true
+    else
+        return false
+    end
+end
+function M.table2string(t, isArray)
+    if t == nil then return "" end
+    local sStart = "{"
 
+    local i = 1
+    for key,value in pairs(t) do
+        local sSplit = ","
+        if i==1 then
+            sSplit = ""
+        end
+
+        if isArray then
+            sStart = sStart..sSplit..value2string(value, isArray)
+        else
+            if type(key)=='number' or type(key) == 'string' then
+                sStart = sStart..sSplit..'['..value2string(key).."]="..value2string(value)
+            else
+                if type(key)=='userdata' then
+                    sStart = sStart..sSplit.."*s"..M.table2string(getmetatable(key)).."*e".."="..value2string(value)
+                else
+                    sStart = sStart..sSplit..key.."="..value2string(value)
+                end
+            end
+        end
+
+        i = i+1
+    end
+
+	sStart = sStart.."}"
+	return sStart
+end
 --! @brief 模拟TryCatch块
 --! @param t 条件上下文
 --!
@@ -13,7 +72,7 @@ end
 --! 当try语句中出现错误时，将把错误信息发送到catch语句块，否则返回try函数结果
 --! 当catch语句块被执行时，若发生错误将重新抛出，否则返回catch函数结果
 --! finally块总是会保证在try或者catch后被执行
-_M.TryCatch = function(t)
+M.TryCatch = function(t)
     assert(t.try ~= nil, "invalid argument.")
 
     local ret = {
@@ -57,7 +116,7 @@ end
 ---对一个对象表进行更新
 ---@param lst table
 ---@return number @表长度
-_M.UnitListUpdate function(lst)
+M.UnitListUpdate = function(lst)
     local n = #lst
     local j = 0
     for i = 1, n do
@@ -79,13 +138,13 @@ end
 ---@param lst table
 ---@param obj object|table
 ---@return number @表长度
-_M.UnitListAppend = function(lst, obj)
+M.UnitListAppend = function(lst, obj)
     if IsValid(obj) then
         local n = #lst
         lst[n + 1] = obj
         return n + 1
     elseif IsValid(obj[1]) then
-        return _M.UnitListAppendList(lst, obj)
+        return M.UnitListAppendList(lst, obj)
     else
         return #lst
     end
@@ -95,7 +154,7 @@ end
 ---@param lst table
 ---@param objlist table
 ---@return number @两个对象表的对象总和
-_M.UnitListAppendList = function(lst, objlist)
+M.UnitListAppendList = function(lst, objlist)
     local n = #lst
     local n2 = #objlist
     for i = 1, n2 do
@@ -108,7 +167,7 @@ end
 ---@param lst table
 ---@param obj any
 ---@return number
-_M.UnitListFindUnit = function(lst, obj)
+M.UnitListFindUnit = function(lst, obj)
     local n = #lst
     for i = 1, n do
         local z = lst[i]
@@ -124,23 +183,23 @@ end
 ---@param lst table
 ---@param obj object|table
 ---@return number @表长度
-_M.UnitListInsertEx = function(lst, obj)
-    local l = _M.UnitListFindUnit(lst, obj)
+M.UnitListInsertEx = function(lst, obj)
+    local l = M.UnitListFindUnit(lst, obj)
     if l == 0 then
-        return _M.UnitListAppend(lst, obj)
+        return M.UnitListAppend(lst, obj)
     else
         return l
     end
 end
 
 ---拆解表至同一层级
-_M.GetUnpackList = function(...)
+M.GetUnpackList = function(...)
     local ref, p = {}, { ... }
     for _, v in pairs(p) do
         if type(v) ~= 'table' then
             table.insert(ref, v)
         else
-            local tmp = _M.GetUnpackList(unpack(v))
+            local tmp = M.GetUnpackList(unpack(v))
             for _, t in pairs(tmp) do
                 table.insert(ref, t)
             end
@@ -150,15 +209,15 @@ _M.GetUnpackList = function(...)
 end
 
 ---拆解表至同一层级并解包成参数列
-_M.GetUnpack = function(...)
-    return unpack(_M.GetUnpackList(...))
+M.GetUnpack = function(...)
+    return unpack(M.GetUnpackList(...))
 end
 
 ---复制表
 ---@param t table @要复制的表
 ---@param all boolean @是否深度复制
 ---@return table
-_M.copy = function(t, all)
+M.copy = function(t, all)
     local lookup = {}
     local function _copy(t)
         if type(t) ~= 'table' then
@@ -188,7 +247,7 @@ end
 ---@param str string @要处理的字符串
 ---@param length number @单字符宽度
 ---@return number, table
-_M.SplitText = function(str, length)
+M.SplitText = function(str, length)
     local s = 0
     local list = {}
     local len = string.len(str)
@@ -225,7 +284,7 @@ end
 ---@param pos number @选择位标
 ---@param s number @锁定位标
 ---@return table, number
-_M.GetListSection = function(list, n, pos, s)
+M.GetListSection = function(list, n, pos, s)
     n = int(n or #list)
     s = min(max(int(s or n), 1), n)
     local cut, c, m = {}, #list, pos
@@ -249,7 +308,7 @@ end
 ---@param input string @要分割的字符串
 ---@param delimiter string @分割符
 ---@return fun():(string, number)
-_M.Split = function(input, delimiter)
+M.Split = function(input, delimiter)
     local len = #input
     local pos = 0
     local i = 0
@@ -273,7 +332,7 @@ end
 ---@param input string @要分割的字符串
 ---@param delimiter string @分割符
 ---@return table @分割好的字符串表
-_M.SplitText = function(input, delimiter)
+M.SplitText = function(input, delimiter)
     if (delimiter == "") then
         return false
     end
@@ -288,4 +347,4 @@ _M.SplitText = function(input, delimiter)
     return arr
 end
 
-return _M
+return M
