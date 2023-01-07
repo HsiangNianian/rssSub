@@ -1,0 +1,4 @@
+[event.listener]
+title = "监听"
+trigger.cycle = { second=5 }
+action.lua = "control.listener"
