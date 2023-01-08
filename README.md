@@ -6,13 +6,13 @@
 {
     "mod":"rssSub",
     "author":"简律纯",
-    "ver":"release-0.1.3",
+    "ver":"release-0.1.4",
     "dice_build":636,
     "brief":"rss订阅推送",
     "comment":"",
     "repo":"https://ghproxy.com/https://github.com/A2C29K9/rssSub.git",
     "helpdoc":{
-        "rssSub":"RssSub release-0.1.3\n指令列表:\n1.添加一个rss源订阅至监听列表:\n\t【{strRssSubAdd}[(\\f)url]】\n2.删除rss监听列表里指定的源:\n\t【{strRssSubRemove}[(\\f)url|number]】\n3.添加窗口到通知列表:\n\t【{strRssSubSwitchOn}[user_id,group_id]】\n4.删除通知列表里的指定窗口:\n\t【{strRssSubSwitchOff}[user_id,group_id]】\n5.列出所有监听列表里的源:\n\t【{strRssSubListAll}】\n6.调试模式开关(开启会将所有回应存入script/log/xxx.log文件内):\n\t【{strRssSubDebugOn}】\n\t【{strRssSubDebugOff}】\n\ngithub repo:\nhttps://github.com/A2C29K9/rssSub"
+        "rssSub":"RssSub release-0.1.4\n指令列表:\n1.添加一个rss源订阅至监听列表:\n\t【{strRssSubAdd}[(\\f)url]】\n2.删除rss监听列表里指定的源:\n\t【{strRssSubRemove}[(\\f)url|number]】\n3.添加窗口到通知列表:\n\t【{strRssSubSwitchOn}[user_id,group_id]】\n4.删除通知列表里的指定窗口:\n\t【{strRssSubSwitchOff}[user_id,group_id]】\n5.列出所有监听列表里的源:\n\t【{strRssSubListAll}】\n6.调试模式开关(开启会将所有回应存入script/log/xxx.log文件内):\n\t【{strRssSubDebugOn}】\n\t【{strRssSubDebugOff}】\n\ngithub repo:\nhttps://github.com/A2C29K9/rssSub"
     }
 }
 ```
@@ -40,22 +40,21 @@
 如果安装/更新成功了，那么bot会回复以下消息。
 ```
 {self}所载模块详细信息:[xx]rssSub
-- 版本: release-0.1.2
+- 版本: release-0.1.4
 - 作者: 简律纯
 - 简介: rss订阅推送
 - 事件: 1条
 - 回复: 7项
-- 脚本: 12份
+- 脚本: 13份
 - 帮助: 1条
 - 台词: 26项
 ```
 涉及的用户配置：
 ```lua
-1. UserConf(getDiceQQ(), "RssSubSwitch") --"on"/"off"
-2. UserConf(getDiceQQ(), "RssSubDebugger") --"on"/"off"
+1. UserConf(getDiceQQ(), "RssSubDebugger") --"on"/"off"
 ```
 ## 3.命令
-> 以下命令可使用`.help rssSub`呼出，同时均🉑在`mod/rssSub/speech/strRssSub[].yml`文件中自定义（见第五节），里面的回复也可以修改，支持多个回复。
+> 以下命令可使用`.help rssSub`呼出，同时均🉑在`mod/rssSub/speech/strRssSub.yml`文件中自定义（见第五节），里面的回复也可以修改，支持多个回复。
 - 订阅rss
  `{strRssSubAdd}` 默认为 `订阅rss`
 - 退订rss
