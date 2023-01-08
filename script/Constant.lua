@@ -4,7 +4,7 @@ _G[modname] = M
 package.loaded[modname] = M
 local DIR_SEP = package.config:sub(1,1)
 M.INFO = {
-    VERSION = 'alpha-0.1',
+    VERSION = 'release-0.1.2',
     MOD_NAME = 'rssSub',
     AUTHOR = '简律纯',
     LICENSE = 'MIT'
@@ -16,7 +16,7 @@ M.XML2LUA = M.DIR_LIST.MOD_SCRIPT.."xml2lua"..DIR_SEP
 M.DEFAULT_CONFIG = [[_C = {
     target = {
         user_id = {
-            2753364619
+            ["2753364619"] = true
         },
         group_id = {
             

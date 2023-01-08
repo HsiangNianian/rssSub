@@ -1,1 +1,1 @@
-C = {["target"]={["user_id"]={[1]="2753364619"},["group_id"]={}},["feeds"]={["native_src"]={},["online_src"]={["academic_jyunko_cn"]="https://academic.jyunko.cn/feed.xml"}}}
+C = {["target"]={["user_id"]={},["group_id"]={[971050440]=true}},["feeds"]={["native_src"]={},["online_src"]={["academic_jyunko_cn"]="https://academic.jyunko.cn/feed.xml",["ssjskfjdj_netlify_app"]="https://ssjskfjdj.netlify.app/feed_rss_created.xml"}}}

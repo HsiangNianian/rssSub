@@ -3,10 +3,18 @@ local M = {}
 _G[modname] = M
 package.loaded[modname] = M
 local DIR_SEP = package.config:sub(1,1)
+local unpack = table.unpack
 M.prequire = function(...)
     local ok, mod=pcall(require, ...)
     if not ok then return nil, mod end
     return mod
+end
+M.keys = function(hashtable)
+    local keys = {}
+    for k, v in pairs(hashtable) do
+        keys[#keys + 1] = k
+    end
+    return keys
 end
 local function value2string(value, isArray)
     if type(value)=='table' then
@@ -33,6 +41,17 @@ M.write = function(path, text, mode)
     else
         return false
     end
+end
+M.read = function(path, mode)
+    local text = ""
+    local file = io.open(path, mode)
+    if (file ~= nil) then
+        text = file.read(file, "*a")
+        io.close(file)
+    else
+        return false
+    end
+    return text
 end
 function M.table2string(t, isArray)
     if t == nil then return "" end
@@ -134,8 +153,7 @@ M.UnitListUpdate = function(lst)
     return j
 end
 
----添加一个luastg object对象或者luastg object对象表到已有的对象表上
----@param lst table
+---@param table
 ---@param obj object|table
 ---@return number @表长度
 M.UnitListAppend = function(lst, obj)
@@ -151,7 +169,7 @@ M.UnitListAppend = function(lst, obj)
 end
 
 ---连接两个对象表
----@param lst table
+---@param table
 ---@param objlist table
 ---@return number @两个对象表的对象总和
 M.UnitListAppendList = function(lst, objlist)
@@ -164,7 +182,7 @@ M.UnitListAppendList = function(lst, objlist)
 end
 
 ---返回指定对象在对象表中的位置
----@param lst table
+---@param table
 ---@param obj any
 ---@return number
 M.UnitListFindUnit = function(lst, obj)
@@ -178,9 +196,9 @@ M.UnitListFindUnit = function(lst, obj)
     return 0
 end
 
----添加一个luastg object对象或者luastg object对象表到已有的对象表上
+---添加一个object对象表到已有的对象表上
 ---如果已有则返回目标当前的所在位置
----@param lst table
+---@param table
 ---@param obj object|table
 ---@return number @表长度
 M.UnitListInsertEx = function(lst, obj)

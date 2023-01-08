@@ -1,13 +1,3 @@
-[reply.switch_on]
-keyword.match = "{strRssSubSwitchOn}"
-limit.user_var.trust.at_least = 4
-echo.lua = "control.switch"
-
-[reply.switch_off]
-keyword.match = "{strRssSubSwitchOff}"
-limit.user_var.trust.at_least = 4
-echo.lua = "control.switch"
-
 [reply.add_feed]
 keyword.prefix = "{strRssSubAdd}"
 limit.user_var.trust.at_least = 4
@@ -17,3 +7,8 @@ echo.lua = "control.add"
 keyword.prefix = "{strRssSubRemove}"
 limit.user_var.trust.at_least = 4
 echo.lua = "control.remove"
+
+[reply.list_all]
+keyword.match = "{strRssSubListAll}"
+limit.user_var.trust.at_least = 4
+echo.lua = "control.list"
