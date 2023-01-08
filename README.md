@@ -6,6 +6,7 @@
 {
     "mod":"rssSub",
     "author":"简律纯",
+
     "ver":"release-0.1.2",
     "dice_build":636,
     "brief":"rss订阅推送",
