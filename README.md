@@ -70,7 +70,7 @@
  - 开启:
   `{strRssSubDebugOn}` 默认为 `开启调试模式`
  - 开启关闭:
-  `{strRssSubDebugOff}` 默认为 `关闭调试模式
+  `{strRssSubDebugOff}` 默认为 `关闭调试模式`
 
 ## 4.示例
 - 订阅rss
