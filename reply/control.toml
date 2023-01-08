@@ -1,0 +1,14 @@
+[reply.add_feed]
+keyword.prefix = "{strRssSubAdd}"
+limit.user_var.trust.at_least = 4
+echo.lua = "control.add"
+
+[reply.remove_feed]
+keyword.prefix = "{strRssSubRemove}"
+limit.user_var.trust.at_least = 4
+echo.lua = "control.remove"
+
+[reply.list_all]
+keyword.match = "{strRssSubListAll}"
+limit.user_var.trust.at_least = 4
+echo.lua = "control.list"
