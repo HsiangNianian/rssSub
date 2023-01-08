@@ -1,0 +1,32 @@
+# Add
+strRssSubAdd: ["订阅rss"]
+strRssSubAddFail: ["添加rss源失败！"]
+strRssSubAddSuccess: ["成功添加新的rss订阅√", "添加成功~"]
+strRssSubAlreadyAdded: ["已添加过该rss源"]
+# Remove
+strRssSubRemove: ["退订rss"]
+strRssSubRemoveFail: ["删除失败!", "删除时遇到了点困难"]
+strRssSubRemoveSuccess: ["删除成功√", "成功退订此rss源"]
+strRssSubAlreadyRemoved: ["监听列表本就没有此rss源"]
+# List
+strRssSubListAll: ["全部rss源"]
+strRssSubListNone: ["没有找到rss源"]
+strRssSubListRespo: ["列出以下rss源:\n"]
+# Switch
+strRssSubSwitchOn: ["开启rss订阅"]
+strRssSubSwitchOff: ["关闭rss订阅"]
+strRssSubSwitchOnFail: ["开启本窗口的rss订阅通知失败！"]
+strRssSubSwitchOffFail: ["关闭本窗口的rss订阅通知失败！"]
+strRssSubSwitchAlreadyOn: ["本窗口已经开启rss订阅通知"]
+strRssSubSwitchAlreadyOff: ["本窗口已经关闭rss订阅通知"]
+strRssSubSwitchOnSuccess: ["成功开启本窗口的rss订阅通知"]
+strRssSubSwitchOffSuccess: ["成功关闭本窗口的rss订阅通知"]
+# Listen
+strRssSubListener: ["更新了。"]
+# Debug
+strRssSubDebugOn: ["开启调试模式"]
+strRssSubDebugOff: ["关闭调试模式"]
+strRssSubDebugAlreadyOff: ["调试模式已经关闭"]
+strRssSubDebugAlreadyOn: ["调试模式已经开启"]
+strRssSubDebugOnSuccess: ["调试模式开启成功"]
+strRssSubDebugOffSuccess: ["调试模式关闭成功"]
