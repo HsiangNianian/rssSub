@@ -24,7 +24,7 @@ if #feed == 0 then return log.info([[帮助:
     {strRssSubAdd}https://academic.jyunko.cn/feed.xml]]) end
 local status,content = http.get(feed)
 if status then
-    local url_,_ = feed:match("https?%://(.*)/"):gsub("%.","_")
+    local url_,_ = feed:match("https?%://(.*)%.xml"):gsub("%.","_")
     local url,_ = url_:gsub("/","_")
     local _C = Util.copy(C,false) ---@Const _config.lua
     if _C.feeds.online_src[url] then
