@@ -1,7 +1,7 @@
 # rssSub
 > 为Dice!编写的rss订阅mod
 
-[![](https://img.shields.io/github/issues/A2C29K9/rssSub)](https://github.com/A2C29K9/rssSub/issues) [![](https://img.shields.io/github/issues-pr/A2C29K9/rssSub)](https://github.com/A2C29K9/rssSub/pulls)[![GitHub last commit](https://img.shields.io/github/last-commit/A2C29K9/rssSub.svg)](https://github.com/A2C29K9/rssSub/commits) [![release](https://img.shields.io/github/v/release/A2C29K9/rssSub.svg)](https://github.com/A2C29K9/rssSub/releases)
+[![](https://img.shields.io/github/issues/HsiangNianian/rssSub)](https://github.com/HsiangNianian/rssSub/issues) [![](https://img.shields.io/github/issues-pr/HsiangNianian/rssSub)](https://github.com/HsiangNianian/rssSub/pulls)[![GitHub last commit](https://img.shields.io/github/last-commit/HsiangNianian/rssSub.svg)](https://github.com/HsiangNianian/rssSub/commits) [![release](https://img.shields.io/github/v/release/HsiangNianian/rssSub.svg)](https://github.com/HsiangNianian/rssSub/releases)
 ```json
 {
     "mod":"rssSub",
@@ -10,9 +10,9 @@
     "dice_build":636,
     "brief":"rss订阅推送",
     "comment":"",
-    "repo":"https://ghproxy.com/https://github.com/A2C29K9/rssSub.git",
+    "repo":"https://ghproxy.com/https://github.com/HsiangNianian/rssSub.git",
     "helpdoc":{
-        "rssSub":"RssSub release-0.1.5\n指令列表:\n1.添加一个rss源订阅至监听列表:\n\t【{strRssSubAdd}[(\\f)url]】\n2.删除rss监听列表里指定的源:\n\t【{strRssSubRemove}[分片url]]】\n3.添加窗口到通知列表:\n\t【{strRssSubSwitchOn}[user_id,group_id]】\n4.删除通知列表里的指定窗口:\n\t【{strRssSubSwitchOff}[user_id,group_id]】\n5.列出所有监听列表里的源:\n\t【{strRssSubListAll}】\n6.调试模式开关(开启会将所有回应存入script/log/xxx.log文件内):\n\t【{strRssSubDebugOn}】\n\t【{strRssSubDebugOff}】\n\ngithub repo:\nhttps://github.com/A2C29K9/rssSub"
+        "rssSub":"RssSub release-0.1.5\n指令列表:\n1.添加一个rss源订阅至监听列表:\n\t【{strRssSubAdd}[(\\f)url]】\n2.删除rss监听列表里指定的源:\n\t【{strRssSubRemove}[分片url]]】\n3.添加窗口到通知列表:\n\t【{strRssSubSwitchOn}[user_id,group_id]】\n4.删除通知列表里的指定窗口:\n\t【{strRssSubSwitchOff}[user_id,group_id]】\n5.列出所有监听列表里的源:\n\t【{strRssSubListAll}】\n6.调试模式开关(开启会将所有回应存入script/log/xxx.log文件内):\n\t【{strRssSubDebugOn}】\n\t【{strRssSubDebugOff}】\n\ngithub repo:\nhttps://github.com/HsiangNianian/rssSub"
     }
 }
 
