@@ -1,12 +1,12 @@
 {
     "mod":"rssSub",
     "author":"简律纯",
-    "ver":"release-0.1.5",
+    "ver":"release-1.1.0",
     "dice_build":636,
     "brief":"rss订阅推送",
     "comment":"",
     "repo":"https://ghproxy.com/https://github.com/HsiangNianian/rssSub.git",
     "helpdoc":{
-        "rssSub":"RssSub release-0.1.5\n指令列表:\n1.添加一个rss源订阅至监听列表:\n\t【{strRssSubAdd}[(\\f)url]】\n2.删除rss监听列表里指定的源:\n\t【{strRssSubRemove}[分片url]]】\n3.添加窗口到通知列表:\n\t【{strRssSubSwitchOn}[user_id,group_id]】\n4.删除通知列表里的指定窗口:\n\t【{strRssSubSwitchOff}[user_id,group_id]】\n5.列出所有监听列表里的源:\n\t【{strRssSubListAll}】\n6.调试模式开关(开启会将所有回应存入script/log/xxx.log文件内):\n\t【{strRssSubDebugOn}】\n\t【{strRssSubDebugOff}】\n\ngithub repo:\nhttps://github.com/HsiangNianian/rssSub"
+        "rssSub":"RssSub release-1.1.0\n指令列表:\n1.添加一个rss源订阅至监听列表:\n\t【{strRssSubAdd}[(\\f)url]】\n2.删除rss监听列表里指定的源:\n\t【{strRssSubRemove}[分片url]]】\n3.添加窗口到通知列表:\n\t【{strRssSubSwitchOn}[user_id,group_id]】\n4.删除通知列表里的指定窗口:\n\t【{strRssSubSwitchOff}[user_id,group_id]】\n5.列出所有监听列表里的源:\n\t【{strRssSubListAll}】\n6.调试模式开关(开启会将所有回应存入script/log/xxx.log文件内):\n\t【{strRssSubDebugOn}】\n\t【{strRssSubDebugOff}】\n\ngithub repo:\nhttps://github.com/HsiangNianian/rssSub"
     }
 }
