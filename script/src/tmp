@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+
+
+>
+    <channel>
+        <title><![CDATA[HsiangNianian/rssSub All Issues]]></title>
+        <link>https://github.com/HsiangNianian/rssSub/issues</link>
+        <atom:link href="https://rsshub/github/issue/HsiangNianian/rssSub/all" rel="self" type="application/rss+xml" />
+        <description><![CDATA[HsiangNianian/rssSub All Issues - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        
+        
+        
+        <language>zh-cn</language>
+        
+        <lastBuildDate>Tue, 10 Jan 2023 00:37:22 GMT</lastBuildDate>
+        <ttl>1</ttl>
+        
+        <item>
+            <title><![CDATA[测试]]></title>
+            <description><![CDATA[<p>优化性能</p>
+]]></description>
+            <pubDate>Tue, 10 Jan 2023 00:30:52 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/39</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/39</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试]]></title>
+            <description><![CDATA[<p>取数量测试</p>
+]]></description>
+            <pubDate>Tue, 10 Jan 2023 00:30:40 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/38</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/38</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Utils.lua体积问题]]></title>
+            <description><![CDATA[<p>考虑减少函数。</p>
+]]></description>
+            <pubDate>Tue, 10 Jan 2023 00:13:56 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/37</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/37</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[listener.lua修改]]></title>
+            <description><![CDATA[<p>考虑优化工作流程。</p>
+]]></description>
+            <pubDate>Tue, 10 Jan 2023 00:13:30 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/36</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/36</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[test2]]></title>
+            <description><![CDATA[<p>testtest</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:37:30 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/35</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/35</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[test]]></title>
+            <description><![CDATA[<p>test</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:37:18 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/34</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/34</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[1235]]></title>
+            <description><![CDATA[<p>1357</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:32:44 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/33</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/33</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[15551]]></title>
+            <description><![CDATA[<p>15551</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:32:30 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/32</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/32</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[114511]]></title>
+            <description><![CDATA[<p>114511</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:32:18 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/31</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/31</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试14]]></title>
+            <description><![CDATA[<p>15551</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:25:23 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/30</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/30</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试13]]></title>
+            <description><![CDATA[<p>114514</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:25:07 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/29</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/29</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试一下]]></title>
+            <description><![CDATA[<pre><code class="language-lua">string.format(
+    "%s\nopened a new issue\n--------------------\n\"%s\"\n\ncommited by %s\n%s\n%s",
+    f.title,post.desc,
+    post.author,
+    post.pubDate,
+    post.guid
+)
+</code></pre>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:24:47 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/28</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/28</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试12]]></title>
+            <description><![CDATA[<p>12 相对于10和11而言更晚 @HsiangNianian</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:21:50 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/27</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/27</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试11]]></title>
+            <description><![CDATA[<p>这是测试11</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:21:07 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/26</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/26</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试10]]></title>
+            <description><![CDATA[<pre><code class="language-lua">string.format("%s\nopened a new issue\n--------------------\n\"%s\"\n\ncommited by %s\n%s\n%s",f.title,post.desc,post.author,post.pubDate,post.guid)
+</code></pre>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:20:48 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/25</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/25</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试9]]></title>
+            <description><![CDATA[<p>摆烂了</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:10:31 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/24</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/24</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试9]]></title>
+            <description><![CDATA[<p>你是</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:09:45 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/23</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/23</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试8]]></title>
+            <description><![CDATA[<p>测试8</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:09:21 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/22</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/22</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试7]]></title>
+            <description><![CDATA[<p>巴拉巴拉巴拉测试7</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 16:09:09 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/21</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/21</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试6]]></title>
+            <description><![CDATA[<p>在至少有两个issue的前提下连续发送两个issue，这是其二</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 10:28:13 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/20</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/20</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试5]]></title>
+            <description><![CDATA[<p>在至少有两个issue的前提下连续发送两个issue，这是其一</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 10:28:00 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/19</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/19</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试4]]></title>
+            <description><![CDATA[<p>在已有至少1个issue的前提下转发新增的一个issue</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 10:23:30 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/18</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/18</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试3]]></title>
+            <description><![CDATA[<p>在已有一个issue的前提下转发新增的一个issue</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 10:21:31 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/17</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/17</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试2]]></title>
+            <description><![CDATA[<p>在已有一个issue的前提下进行监听测试</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 10:16:14 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/16</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/16</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[修复测试2]]></title>
+            <description><![CDATA[<p>修啊修啊修啊，这bug怎么这么多啊，先吃饭</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 10:05:10 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/15</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/15</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[修复测试]]></title>
+            <description><![CDATA[<p>修复测试</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 09:59:33 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/14</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/14</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[监听测试]]></title>
+            <description><![CDATA[<p>康康什么<img src="https://user-images.githubusercontent.com/44714368/211280080-e060ee8f-a9a0-4f8f-9c5c-1957e7f68778.jpg" alt="Screenshot_2023-01-09-00-51-23-18_320a9a695de7cdce83ed5281148d6f19.jpg" referrerpolicy="no-referrer"></p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 09:46:08 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/13</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/13</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[测试喵]]></title>
+            <description><![CDATA[<p>让我康康！
+<img src="https://user-images.githubusercontent.com/113657202/211278896-41a3a387-aec1-4360-825b-ca0747a684bd.jpg" alt="20181216973692_tWpyXo" referrerpolicy="no-referrer"></p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 09:39:42 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/12</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/12</link>
+            
+            
+            
+            <author><![CDATA[HadalFauna]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[图片测试]]></title>
+            <description><![CDATA[<p>图片图片图片图片图片图片图片图片<img src="https://user-images.githubusercontent.com/44714368/211278370-fb1ca14f-e8b3-4e13-929a-b9007d27eb34.jpg" alt="Screenshot_2023-01-09-17-11-12-14_9e8df3d0c7c1f50248b6ee043a653d26.jpg" referrerpolicy="no-referrer"></p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 09:36:51 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/11</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/11</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[想要转发内容和字数上限（直球）]]></title>
+            <description><![CDATA[<p>而且字数上限可以自定义！</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 09:32:15 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/10</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/10</link>
+            
+            
+            
+            <author><![CDATA[HadalFauna]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[想要转发内容和字数上限（直球）]]></title>
+            <description><![CDATA[<p>而且字数上限可以自定义！</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 09:28:12 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/9</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/9</link>
+            
+            
+            
+            <author><![CDATA[HadalFauna]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[空集测试]]></title>
+            <description><![CDATA[<p>空集测试</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 08:16:08 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/8</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/8</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[test]]></title>
+            <description><![CDATA[<p>仅用于测试issue的推送。</p>
+]]></description>
+            <pubDate>Mon, 09 Jan 2023 07:36:54 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/7</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/7</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[strRssSubListener 具体内容]]></title>
+            <description><![CDATA[<p>计划将具体内容作为单独lua读取，lua代码由mod使用者编写，rssSub负责读取。以此实现高度定制。</p>
+]]></description>
+            <pubDate>Sun, 08 Jan 2023 16:36:00 GMT</pubDate>
+            <guid isPermaLink="false">https://github.com/HsiangNianian/rssSub/issues/6</guid>
+            <link>https://github.com/HsiangNianian/rssSub/issues/6</link>
+            
+            
+            
+            <author><![CDATA[HsiangNianian]]></author>
+            
+                
+            
+            
+        </item>
+        
+    </channel>
+</rss>
