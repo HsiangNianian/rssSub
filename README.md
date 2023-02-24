@@ -2,6 +2,7 @@
 > 为Dice!编写的可插件化管理的rss订阅mod
 
 [![](https://img.shields.io/github/issues/HsiangNianian/rssSub)](https://github.com/HsiangNianian/rssSub/issues) [![](https://img.shields.io/github/issues-pr/HsiangNianian/rssSub)](https://github.com/HsiangNianian/rssSub/pulls)[![GitHub last commit](https://img.shields.io/github/last-commit/HsiangNianian/rssSub.svg)](https://github.com/HsiangNianian/rssSub/commits) [![release](https://img.shields.io/github/v/release/HsiangNianian/rssSub.svg)](https://github.com/HsiangNianian/rssSub/releases)
+
 ```json
 {
     "mod":"rssSub",
