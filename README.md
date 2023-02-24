@@ -24,7 +24,6 @@
 
 ## 1. install
 
-
 - Dice版本(636+)以上安装方法:
 
   1. 在 `./DiceQQ/conf/mod/source.list`文件内（没有mod文件夹和这文件就新建）输入 `https://ssjskfjdj.netlify.app/Module/`。
